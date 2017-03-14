@@ -1,0 +1,18 @@
+name_of_mydocument = 'mydocument.txt'
+file_input = open(name_of_mydocument, 'r')     
+
+line = file_input.readline()
+line = file_input.readline()
+line = file_input.readline()
+line = file_input.readline()
+line = file_input.readline()
+
+line = file_input.readline()
+line = file_input.readline()
+line = file_input.readline()
+
+line_counter = 1
+while line != '':                   
+    print(line_counter, line, end = '')                      
+    line = file_input.readline()
+    line_counter += 1
