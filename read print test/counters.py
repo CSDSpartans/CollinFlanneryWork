@@ -31,4 +31,4 @@ line = file_input.readline()
 
 print ("Total number of stanzas in this poem are: " + str(stanza_counter) + ".")
 print ("Total number of lines in this file are: " + str(lines_in_file) + ".")
-print ("The Moody Blues members are Mike Lodge,John Lodge, Ray Thomas, Justin Hayward, and  Graeme Edge.")
+print ("The Moody Blues members are Patrick Moraz, John Lodge, Ray Thomas, Justin Hayward, and  Graeme Edge.")
